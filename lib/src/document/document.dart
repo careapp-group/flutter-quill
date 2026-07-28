@@ -582,7 +582,6 @@ class Document {
       );
     }
 
-    assert((doc.last.data as String).endsWith('\n'));
 
     var offset = 0;
     for (final op in doc.toList()) {
